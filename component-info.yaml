@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "test-1-sb"
+  description: "test-1-sb"
+  annotations:
+    github.com/project-slug: "abhi1git/sb1"
+    backstage.io/techdocs-ref: github:https://github.com/abhi1git/sb1
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "abhi"
